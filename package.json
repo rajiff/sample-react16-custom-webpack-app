@@ -1,11 +1,11 @@
 {
   "name": "sample-form-react-redux-rxjs",
   "version": "0.1.0",
-  "description": "Simple form, submission & validation using React, Redux & RxJS",
+  "description": "Simple React v16 app with custom webpack config",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf ./build",
-    "build": "./node_modules/.bin/webpack",
+    "build": "./node_modules/.bin/webpack --open",
     "serve": "./node_modules/.bin/webpack-dev-server",
     "lint": "./node_modules/.bin/eslint './src/**/*.js' --ignore-path .eslintignore"
   },
