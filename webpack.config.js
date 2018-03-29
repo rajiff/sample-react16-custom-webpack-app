@@ -30,6 +30,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'AppTemplate',
       template: './public/index.html',
+      favicon: './public/favicon.ico'
       // inject: 'body'
     })
   ],
