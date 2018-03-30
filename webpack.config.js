@@ -21,6 +21,9 @@ module.exports = {
       loader: "style-loader!css-loader"
     }]
   },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  }
   plugins: [
     new HtmlWebpackPlugin({
       title: 'AppTemplate',
