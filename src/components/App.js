@@ -5,7 +5,15 @@ export default class App extends React.Component {
     super(props);
 	}
 
+	handleSomething = () => {
+	}
+
 	render() {
-		return <h2>Welcome to Sample React v16 App, with custom webpack config (without using create-react-app)</h2>
+		return(
+			<div>
+				<h2>Welcome to Sample React v16 App</h2>
+				<h3>This works basis custom webpack config (without using create-react-app)</h3>
+			</div>
+		)
 	}
 }
